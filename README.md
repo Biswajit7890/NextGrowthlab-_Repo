@@ -5,6 +5,8 @@ The digits has been extracted  with regex function after all the words of ID and
 
 ## Answer 3
 STEPS:
+     
+     
      1. After preprocessing the text i computed the simlarity score of long and Short description and  groupy by the mean of the score with respect to each rank and want to analyse if the simmilarity score is affecting the Rank or not.
     
     2. Are Ranks are ordered in ascending order with respect to the mean of  difference between the days from date and Date of Last Description Change.
