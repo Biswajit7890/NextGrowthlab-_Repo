@@ -37,7 +37,7 @@ For checking the Grammar score i have preprocessed the text and used pretrained 
 
 1.  As  from a middle class family did not had any kind of problem which is very rare but yes there were Some personal hicups.
 
-2. The set of pairs (a, 2a) for all real a.
+2. The set of pairs (a, b) for all real a ≥ b
 
  
 
