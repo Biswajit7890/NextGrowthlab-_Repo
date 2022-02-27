@@ -4,6 +4,7 @@ import nltk
 import re
 import string 
 import nltk
+nltk.download('omw-1.4')
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 nltk.download('wordnet')
