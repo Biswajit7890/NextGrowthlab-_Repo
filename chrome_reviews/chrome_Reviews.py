@@ -36,6 +36,3 @@ def reviews_tag(df):
     df=df[Filtercondition1 & Filtercondition2]
     df=df[['text_lemma','Star']]
     return df
-
-
-
