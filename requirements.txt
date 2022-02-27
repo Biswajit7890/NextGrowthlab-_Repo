@@ -1,12 +1,6 @@
 pandas
 numpy
-re
 nltk
-string
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('vader_lexicon')
 emoji
 streamlit
 streamlit_authenticator

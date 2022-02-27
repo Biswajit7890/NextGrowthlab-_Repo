@@ -1,0 +1,6 @@
+wordnet
+pros_cons
+punkt
+stopwords
+averaged_perceptron_tagger
+vader_lexicon
