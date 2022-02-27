@@ -3,10 +3,10 @@ import numpy as np
 import string
 import nltk 
 import string 
-from nltk.corpus import stopwords
+import re
 import nltk
 nltk.download('stopwords')
-import re
+from nltk.corpus import stopwords
 nltk.download('wordnet')
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer

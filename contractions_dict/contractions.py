@@ -1,16 +1,15 @@
 import pandas as pd
 import numpy as np
 import nltk 
+import re
 import string 
-from nltk.corpus import stopwords
 import nltk
 nltk.download('stopwords')
-import re
+from nltk.corpus import stopwords
 nltk.download('wordnet')
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 nltk.download('averaged_perceptron_tagger')
-nltk.download('vader_lexicon')
 import emoji
 
 

@@ -1,6 +1,6 @@
-wordnet
+stopwords
 pros_cons
 punkt
-stopwords
+wordnet
 averaged_perceptron_tagger
 vader_lexicon
