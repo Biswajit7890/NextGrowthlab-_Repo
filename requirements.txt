@@ -1,7 +1,6 @@
 pandas
 numpy
 nltk
-nltk.download('all')
 emoji
 streamlit
 streamlit_authenticator
