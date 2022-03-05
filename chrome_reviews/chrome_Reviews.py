@@ -32,7 +32,7 @@ def reviews_tag(df):
     df=df.drop(labels=['Text','Text_emo','Text_contract','text_clean'], axis=1)
     polarity = [round(sent.polarity_scores(i)['compound'], 2) for i in df['text_lemma']]
     df['sentiment_score'] = polarity
-    Filtercondition1=df['sentiment_score']>0.40
+    Filtercondition1=df['sentiment_score']>0.60
     Filtercondition2=df['Star']<=2
     df=df[Filtercondition1 & Filtercondition2]
     df=df[['text_lemma','Star']]
